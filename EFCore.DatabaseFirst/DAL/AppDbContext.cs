@@ -10,7 +10,7 @@ namespace EFCore.DatabaseFirst.DAL
         // 1. yol :  to clarify which database we will use. 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
-        //    optionsBuilder.UseSqlServer("Data Source=TT20817562;Initial Catalog=EFCoreDatabaseFirstDB;Integrated Security=True;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False"); 
+        //    optionsBuilder.UseSqlServer("DB"); 
         //}
 
         public AppDbContext()
